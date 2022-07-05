@@ -15,7 +15,7 @@ body {
 }
 
 .container {
-    width: 84%;
+    width: 90%;
     margin: 0px auto;
 }
 
@@ -51,7 +51,7 @@ body {
 }
 
 .img-1 {
-    width: 100%;
+    width: 90%;
     /* margin-left: 30%; */
     padding-left: 10%;
     /* margin-left: %; */
@@ -83,7 +83,7 @@ body {
 
 
 .img-2 {
-    width: 100%;
+    width: 90%;
 }
 
 .left {
@@ -93,4 +93,55 @@ body {
 
 .topp {
     margin-top: 20px;
+}
+
+.dream-big {
+    background-image: url("img/dream-bg.png");
+    background-repeat: no-repeat;
+    background-position: right;
+}
+
+.boxx {
+    display: flex;
+    width: 100%;
+}
+
+.boxx-1 {
+    width: 50%;
+    margin: 40px 30px;
+    /* border: 2px solid red; */
+    text-align: justify;
+    border-bottom: 10px;
+    background-color: antiquewhite;
+    box-shadow: 0px 0px 50px 0px gray;
+    height: 400px;
+}
+
+.boxx-1 h1 {
+    font-size: 40px;
+    margin-bottom: 20px;
+    font-weight: 700;
+    padding: 10px;
+
+}
+
+.boxx-1 h3 {
+    color: orange;
+    padding: 10px;
+}
+
+.boxx-1 p {
+    padding: 10px;
+}
+
+.Ex-1 {
+    border-left: 5px solid red;
+    /* height: 100%; */
+    width: 50%;
+}
+
+.Ex-2 {
+    border-left: 5px solid blue;
+    /* height: 100%; */
+    width: 50%;
 }
